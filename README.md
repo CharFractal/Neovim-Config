@@ -1,4 +1,4 @@
-# My Neovim Config Repository
+# My Neovim Config
 ## For coding in C and C++
 
 Welcome to my Neovim Config repository!, its configured for C and c++ development.
@@ -29,7 +29,7 @@ To use these configurations:
 3. Symlink the dot files to their respective locations in your home directory.
 
 ```bash
-git clone <https://github.com/ravikul505/nvimconfig/>
+git clone https://github.com/ravikul505/Neovim_Config
 cd .Nvimconfig
 ln -s $(pwd)/.config/nvim ~/.config/nvim
 # Repeat the above step for other dot files as needed
