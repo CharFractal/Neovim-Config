@@ -1,20 +1,23 @@
 --  PLUGINS
-require("gon.plugins-setup")
+require("plugins-setup")
 
 --  CORE_CONFIG
-require("gon.core.keymaps")
-require("gon.core.colorscheme")
-require("gon.core.options")
+require("core.keymaps")
+require("core.colorscheme")
+require("core.options")
 
 --  PLUGINS_CONFIG
-require("gon.plugins.comment")
-require("gon.plugins.nvim-tree")
-require("gon.plugins.lualine")
-require("gon.plugins.telescope")
-require("gon.plugins.nvim-cmp")
-require("gon.plugins.treesitter")
+require("plugins.comment")
+require("plugins.nvim-tree")
+require("plugins.lualine")
+require("plugins.telescope")
+require("plugins.nvim-cmp")
+require("plugins.treesitter")
+require("plugins.alpha")
+require("plugins.auto-sessions")
+require("plugins.bufferline")
+require("plugins.autopairs")
 
 --  LSP_CONFIG
-require("gon.plugins.lsp.mason")
-require("gon.plugins.lsp.lspconfig")
-
+require("plugins.lsp.mason")
+require("plugins.lsp.lspconfig")

@@ -12,6 +12,7 @@ end
 telescope.setup({
   -- configure custom mappings
   defaults = {
+    path_display = { "smart" },
     mappings = {
       i = {
         ["<C-k>"] = actions.move_selection_previous,                        -- move to prev result

@@ -6,3 +6,6 @@ if  not status  then
 	return
 end
 
+vim.g.moonflyCursorColor = true
+vim.g.moonflyUndercurls = false
+vim.g.moonflyNormalFloat = true

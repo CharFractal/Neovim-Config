@@ -2,6 +2,8 @@
 
 local opt = vim.opt
 
+--  remove fillchars
+opt.fillchars = { eob = " " }
 --  line numbers
 opt.number          = true
 
