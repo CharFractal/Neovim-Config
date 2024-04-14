@@ -112,6 +112,11 @@ require("lazy").setup({
     after = "mason-lspconfig"
   },
   {
+    "p00f/clangd_extensions.nvim",
+    name  = "clangd_extesions",
+    after = "lspconfig",
+  },
+  {
     "hrsh7th/cmp-nvim-lsp",
     name = "cmp-nvim-lsp",
     after = "nvim-lspconfig"
