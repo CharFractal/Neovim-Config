@@ -6,6 +6,19 @@ if  not status  then
 	return
 end
 
-vim.g.moonflyCursorColor = true
-vim.g.moonflyUndercurls = false
-vim.g.moonflyNormalFloat = true
+vim.moonflyCursorColor  = true
+vim.moonflyUndercurls   = false
+vim.moonflyNormalFloat  = true
+vim.moonflyTransparent    = true
+
+-- Lua initialization file
+local custom_highlight = vim.api.nvim_create_augroup("CustomHighlight", {})
+vim.api.nvim_create_autocmd("ColorScheme", {
+  pattern = "moonfly",
+  callback = function()
+    vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
+    vim.api.nvim_set_hl(0, "NormalNC", { bg = "NONE" })
+  end,
+  group = custom_highlight,
+})
+
