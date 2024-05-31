@@ -28,9 +28,9 @@ keymap.set( "n" , "<leader>to"  ,     ":tabnew<CR>"   )
 --                                                      close current
 keymap.set( "n" , "<leader>tx"  ,     ":tabclose<CR>" )
 --                                                      go to next
-keymap.set( "n" , "<leader><Right>" , ":tabn<CR>"     )
+keymap.set( "n" , "<leader>l" , ":tabn<CR>"     )
 --                                                      go to previous
-keymap.set( "n" , "<leader><Left>"  , ":tabp<CR>"     )
+keymap.set( "n" , "<leader>h"  , ":tabp<CR>"     )
 
 --                                                      NVIM-TREE
 keymap.set( "n" , "<leader><leader>" , ":NvimTreeToggle<CR>" )
@@ -52,3 +52,4 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 keymap.set("n", "<leader>wr", "<cmd>SessionRestore<CR>", { desc = "Restore session for cwd" })
 --                            save workspace session for current working directory
 keymap.set("n", "<leader>ws", "<cmd>SessionSave<CR>", { desc = "Save session for auto session root dir" })
+

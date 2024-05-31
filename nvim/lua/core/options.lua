@@ -41,3 +41,4 @@ opt.splitbelow      = true
 
 --  misc
 --opt.iskeyword:append("-")
+vim.lsp.set_log_level("off")

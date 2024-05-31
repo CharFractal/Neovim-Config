@@ -33,4 +33,5 @@ treesitter.setup({
     },
   },
 })
-
+-- Set the highlight for macros to be red
+--vim.api.nvim_set_hl(0, "@function.macro", { fg = "#FF0000" })

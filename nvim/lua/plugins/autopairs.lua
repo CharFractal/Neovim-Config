@@ -28,8 +28,6 @@ local ts_conds = require('nvim-autopairs.ts-conds')
 
 -- Generic rules for programming languages
 autopairs.add_rules({
-  Rule("%", "%", {"c", "cpp", "cuda"})
-    :with_pair(ts_conds.is_not_ts_node({'function', 'function_call'})),
   Rule("$", "$", {"bash", "haskell"})
     :with_pair(ts_conds.is_not_ts_node({'function', 'function_call'})),
   Rule("/*", "*/", {"c", "cpp", "cuda"})
