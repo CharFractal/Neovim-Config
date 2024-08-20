@@ -158,5 +158,12 @@ require("lazy").setup({
     name = "nvim-autopairs",
     event = "InsertEnter"
   },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    ---@module "ibl"
+    ---@type ibl.config
+    opts = {},
+  },
 })
 

@@ -16,7 +16,7 @@ for type, icon in pairs(signs) do
   vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 end
 
-vim.lsp.set_log_level("debug")
+vim.lsp.set_log_level("off")
 
 local keymap = vim.keymap
 -- Global mappings.
@@ -139,4 +139,6 @@ lspconfig.lua_ls.setup({
 })
 lspconfig.hls.setup({ capabilities = capabilities })
 lspconfig.bashls.setup({ capabilities = capabilities })
+lspconfig.glslls.setup({ capabilities = capabilities })
+lspconfig.omnisharp.setup({capabilities = capabilities})
 

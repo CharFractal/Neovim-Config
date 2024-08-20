@@ -1,5 +1,5 @@
-local telescope_setup , telescope = pcall( require , "telescope" )
-if not telscope_setup then
+local telescope_setup , telescope = pcall( require , "nvim-telescope" )
+if not telescope_setup then
   return
 end
 

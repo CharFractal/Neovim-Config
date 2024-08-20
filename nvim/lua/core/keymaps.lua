@@ -3,6 +3,13 @@
 vim.g.mapleader = " "
 
 local keymap  = vim.keymap
+keymap.set( "i" , "<C-a>"       , "<left>")
+keymap.set( "i" , "<C-l>"       , "<Right>")
+keymap.set( "i" , "<C-S-a>"     , "<Down>")
+keymap.set( "i" , "<C-S-l>"     , "<Up>")
+keymap.set( "c" , "<C-a>"       , "<left>")
+keymap.set( "c" , "<C-l>"       , "<Right>")
+
 
 --                                                GENERAL
 --                                                toggle highlight

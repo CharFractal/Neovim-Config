@@ -12,6 +12,7 @@
   "friendly-snippets": { "branch": "main", "commit": "d0610077b6129cf9f7f78afbe3a1425d60f6e2f1" },
   "fuzzy finder": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
   "greeting screen": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "dddb5d21811c319eb6e51a993d8fb44b193aae3f" },
   "lazy.nvim": { "branch": "main", "commit": "24fa2a97085ca8a7220b5b078916f81e316036fd" },
   "lspconfig": { "branch": "master", "commit": "7cb90cf656139dc59cf86206946ec85571671b5b" },
   "lualine": { "branch": "master", "commit": "0a5a66803c7407767b799067986b4dc3036e1983" },

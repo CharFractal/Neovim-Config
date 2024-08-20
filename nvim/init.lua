@@ -21,3 +21,4 @@ require("plugins.autopairs")
 --  LSP_CONFIG
 require("plugins.lsp.mason")
 require("plugins.lsp.lspconfig")
+

@@ -40,5 +40,5 @@ opt.splitright      = true
 opt.splitbelow      = true
 
 --  misc
+opt.shell="/bin/fish"
 --opt.iskeyword:append("-")
-vim.lsp.set_log_level("off")
